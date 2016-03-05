@@ -2,7 +2,7 @@ web:
   build: .
   container_name: symfony-docker
   ports:
-   - "8888:8888"
+   - "35000:8888"
   volumes:
     - .:/app
     - ./docker/nginx/vhost_dev.conf:/etc/nginx/sites-enabled/default
